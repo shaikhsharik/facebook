@@ -1,0 +1,26 @@
+[09-Jun-2015 08:47:23 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookAuthorizationException' with message 'This authorization code has expired.' in /home/makemelive/public_html/facebook-php-sdk/src/Facebook/FacebookRequestException.php:104
+Stack trace:
+#0 /home/makemelive/public_html/facebook-php-sdk/src/Facebook/FacebookRequest.php(280): Facebook\FacebookRequestException::create('{"error":{"mess...', Object(stdClass), 400)
+#1 /home/makemelive/public_html/facebook-php-sdk/src/Facebook/FacebookRedirectLoginHelper.php(190): Facebook\FacebookRequest->execute()
+#2 /home/makemelive/public_html/facebook-php-sdk/index.php(51): Facebook\FacebookRedirectLoginHelper->getSessionFromRedirect()
+#3 {main}
+  thrown in /home/makemelive/public_html/facebook-php-sdk/src/Facebook/FacebookRequestException.php on line 104
+[09-Jun-2015 08:47:59 UTC] PHP Fatal error:  Call to undefined method Facebook\GraphUser::getCountry() in /home/makemelive/public_html/facebook-php-sdk/index.php on line 63
+[09-Jun-2015 08:49:31 UTC] PHP Fatal error:  Class 'GraphLocation' not found in /home/makemelive/public_html/facebook-php-sdk/index.php on line 59
+[09-Jun-2015 08:52:00 UTC] PHP Fatal error:  Class 'Facebook\GraphLocation' not found in /home/makemelive/public_html/facebook-php-sdk/index.php on line 60
+[09-Jun-2015 08:53:03 UTC] PHP Fatal error:  Call to a member function getProperty() on a non-object in /home/makemelive/public_html/facebook-php-sdk/index.php on line 69
+[09-Jun-2015 10:56:20 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookAuthorizationException' with message 'This authorization code has been used.' in /home/makemelive/public_html/facebook-php-sdk/src/Facebook/FacebookRequestException.php:104
+Stack trace:
+#0 /home/makemelive/public_html/facebook-php-sdk/src/Facebook/FacebookRequest.php(280): Facebook\FacebookRequestException::create('{"error":{"mess...', Object(stdClass), 400)
+#1 /home/makemelive/public_html/facebook-php-sdk/src/Facebook/FacebookRedirectLoginHelper.php(190): Facebook\FacebookRequest->execute()
+#2 /home/makemelive/public_html/facebook-php-sdk/index.php(54): Facebook\FacebookRedirectLoginHelper->getSessionFromRedirect()
+#3 {main}
+  thrown in /home/makemelive/public_html/facebook-php-sdk/src/Facebook/FacebookRequestException.php on line 104
+[10-Jun-2015 11:22:48 UTC] PHP Fatal error:  Class 'Facebook' not found in /home/makemelive/public_html/facebook/index2.php on line 58
+[10-Jun-2015 11:28:19 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookAuthorizationException' with message 'This authorization code has been used.' in /home/makemelive/public_html/facebook/src/Facebook/FacebookRequestException.php:104
+Stack trace:
+#0 /home/makemelive/public_html/facebook/src/Facebook/FacebookRequest.php(280): Facebook\FacebookRequestException::create('{"error":{"mess...', Object(stdClass), 400)
+#1 /home/makemelive/public_html/facebook/src/Facebook/FacebookRedirectLoginHelper.php(190): Facebook\FacebookRequest->execute()
+#2 /home/makemelive/public_html/facebook/index.php(63): Facebook\FacebookRedirectLoginHelper->getSessionFromRedirect()
+#3 {main}
+  thrown in /home/makemelive/public_html/facebook/src/Facebook/FacebookRequestException.php on line 104
